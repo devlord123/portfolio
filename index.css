@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: linear-gradient(90deg,
+    rgb(33, 32, 32),
+    rgb(126, 121, 121));
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+#header{
+    width: 100%;
+}
+#logo__img{
+    width: 90px;
+    margin-left: auto;
+}
+
+#navbar{
+    text-align: right;
+    margin-top: -20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+    
+}
+
+#welcome-section{
+    width: 100%;
+
+    color: #fff;
+
+   
+}
+#dev__img{
+    width: 46%;
+    height: 35vh;
+    float: right;
+    margin-top: 30px;
+}
+.section__content{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+    width: 50%;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+p{
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: inherit;
+    border: 1px solid #fff;
+    margin-left: 30px;
+    color: #fff;
+}
+#dev__img2{
+    width: 100%;
+    margin-top: 15%;
+    height: 15vh;
+}
+/*--------------------*/
+#projects{
+    color: #fff;
+    margin-top: 10%;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+}
+.project-tile{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+#project__img{
+    width: 100%;
+    height: 50vh;
+}
+figcaption{
+    margin-top: -5px;
+    font-size: 20px;
+    width: 100%;
+    height: 25px;
+    background: rgb(16, 14, 14);
+}
+
+#Contact{
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 10%;
+    
+   
+}
+#cont_txt{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cont_txt2{
+    font-size: 30px;
+    margin-top: 15px;
+    font-family: monospace;
+}
+#media{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+  
+  
+}
+#media_icon{
+    width: 30px;
+    height: 30px;
+  
+}
+hr{
+    margin-top: 15%;
+    background: red;
+    border: 2px solid red;
+
+}
+#footer{
+    margin-top: 5%;
+    color: #fff;
+    margin-bottom: 2%;
+}
+#foot_txt{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2rem;
+}
+@media screen and (min-width: 800px) {
+    #navbar{
+        font-size: 25px;
+    }
+    #dev__img{
+        height: 70vh;
+    }
+    h1{
+        font-size: 50px;
+    }
+    p{
+        font-size: 16px;
+    }
+    #projects{
+        color: #fff;
+        margin-top: 20%;
+    }
+    #cont_txt{
+        font-size: 50px;
+       
+    }
+    #cont_txt2{
+        font-size: 35px;
+       
+    }
+    #media_icon{
+        margin-top: 20px;
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+      
+}
+}
